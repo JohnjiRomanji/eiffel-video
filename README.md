@@ -1,6 +1,6 @@
 # Eiffel Video
  
-The final product can be found on [Youtube](https://youtube.com)
+The final product can be found on [Youtube](https://youtube.com/shorts/DCPd2Qn2WBQ)
 
 Create a video of a fast sequence of aligned images of the Eiffel tower. Using Googles landmark Recogniftion Model (fine-tuned for Europe) on [Tensorflow hub](https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_europe_V1/1), filter thoruigh images scraped from Reddit using PRAW, picking only the ones with Eiffel Tower in the top 5 detected outputs. 
 
