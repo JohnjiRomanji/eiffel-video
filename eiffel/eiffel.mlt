@@ -1,0 +1,2276 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.9.0" title="Shotcut version 22.09.23" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1080" height="1920" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="9" display_aspect_den="16" frame_rate_num="24000000" frame_rate_den="1000000" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:08.750">
+    <property name="length">00:00:08.792</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:08.750"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/800px-Solid_white_bordered.svg.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T21:19:06</property>
+    <property name="shotcut:hash">21fb542c33f2fb391253e75eb9f79b62</property>
+    <property name="shotcut:caption">800px-Solid_white_bordered.svg.png</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:00:05.958">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-4860 -4440 10800 10800 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:01.125"/>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:05.958"/>
+  </playlist>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/164.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:21</property>
+    <property name="shotcut:hash">cd69edc4e57fd32c0febad18baa7570d</property>
+    <property name="shotcut:caption">164.jpg</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-2216.83 -374.432 5636.05 2818.03 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/163.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:19</property>
+    <property name="shotcut:hash">7bc246ab4c2879e291aab66d06aa8239</property>
+    <property name="shotcut:caption">163.jpg</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-621.577 176.608 2369.05 1578.56 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/161.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:18</property>
+    <property name="shotcut:hash">1643abd3ee0d24afb5a272140c7b7254</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">161.jpg</property>
+    <filter id="filter3" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-960.878 202.704 3078.25 1731.52 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/159.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:18</property>
+    <property name="shotcut:hash">f122be5df8b81a5ef7a87b909d03034b</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">159.jpg</property>
+    <filter id="filter4" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">85.0159 334.478 1013.3 1464.21 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/158.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:17</property>
+    <property name="shotcut:hash">69fe5d5b7ea74335fc398c58526ddfa8</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">158.jpg</property>
+    <filter id="filter5" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-111.119 192.402 3069.25 1815.48 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/156.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:16</property>
+    <property name="shotcut:hash">535d60293471d7700972eb085804a6e2</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">156.jpg</property>
+    <filter id="filter6" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">106.831 275.149 1030.15 1373.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/155.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:16</property>
+    <property name="shotcut:hash">03e539c3cfb62860cd33556a25bbbe41</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">155.jpg</property>
+    <filter id="filter7" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-244.038 362.557 1904.65 1269.77 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/154.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:16</property>
+    <property name="shotcut:hash">86b0f7bec1e484bbfd63c8ca15385b22</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">154.jpg</property>
+    <filter id="filter8" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">268.401 348.574 822.851 1396.19 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/153.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:15</property>
+    <property name="shotcut:hash">e68071dcdcaffc52e9e3e90877bd5931</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">153.jpg</property>
+    <filter id="filter9" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-616.181 342.876 2450.05 1368.91 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/152.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:15</property>
+    <property name="shotcut:hash">95cca6a851f61c6f81dc52fe48f3eb4e</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">152.jpg</property>
+    <filter id="filter10" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-366.117 99.6905 1930.15 2573.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/149.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:14</property>
+    <property name="shotcut:hash">429525f16806419bdd53dfc3fb8223e8</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">149.jpg</property>
+    <filter id="filter11" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">189.169 148.55 1185.62 1580.83 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/148.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:14</property>
+    <property name="shotcut:hash">0229204b144ead60717c80299f3773da</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">148.jpg</property>
+    <filter id="filter12" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-107.602 -34.4573 1430.49 2145.73 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/146.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:13</property>
+    <property name="shotcut:hash">07d5f8b860388b702b815bd0dfbb1b0d</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">146.jpg</property>
+    <filter id="filter13" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">200.656 376.775 849.022 1132.03 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/145.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:12</property>
+    <property name="shotcut:hash">2bac339df570d8dc6e3dff84e32b905f</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">145.jpg</property>
+    <filter id="filter14" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-77.6794 176.339 1423.91 2137.2 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/144.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:12</property>
+    <property name="shotcut:hash">3c016f20ea02b753bc0ae97c697d038b</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">144.jpg</property>
+    <filter id="filter15" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-516.195 -1167.5 2299.15 3065.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/140.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:11</property>
+    <property name="shotcut:hash">2752634a717c9452e3483ad43c6db32a</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">140.jpg</property>
+    <filter id="filter16" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-52.4758 -84.4422 1283.09 1924.42 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/138.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:10</property>
+    <property name="shotcut:hash">47efd9c3662b98870a677cce0a4167f0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">138.jpg</property>
+    <filter id="filter17" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">25.1477 19.3282 1180.29 1770.43 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/137.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:09</property>
+    <property name="shotcut:hash">81d8ea8d0c0ac39122c907ee26fb8731</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">137.jpg</property>
+    <filter id="filter18" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-182.506 191.903 1287.83 1715.96 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/136.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:09</property>
+    <property name="shotcut:hash">506fbe36c16d208d707467234edc91b8</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">136.jpg</property>
+    <filter id="filter19" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-80.1463 87.0445 1237.89 1856.83 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/133.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:08</property>
+    <property name="shotcut:hash">294c670e9b4d507719677f2385273fe5</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">133.jpg</property>
+    <filter id="filter20" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">161.755 258.755 885.651 1475.16 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/131.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:08</property>
+    <property name="shotcut:hash">77b7a641dae562711e7470d09fab92dd</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">131.jpg</property>
+    <filter id="filter21" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">40.4465 -27.3582 1181.09 1772.01 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/130.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:07</property>
+    <property name="shotcut:hash">9c2716c0ce87734c6eeb1192edd0e89d</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">130.jpg</property>
+    <filter id="filter22" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">307.958 329.221 910.617 1426.02 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer39" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/125.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:06</property>
+    <property name="shotcut:hash">c8738a7bb644a371cefaae1049c6202a</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">125.jpg</property>
+    <filter id="filter23" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-36.4933 392.166 1127.56 1644.35 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer40" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/124.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:05</property>
+    <property name="shotcut:hash">797bc06e29ba2c7ebd5f97f3534c9c91</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">124.jpg</property>
+    <filter id="filter24" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">172.671 1015.84 826.45 464.878 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer41" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/123.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:05</property>
+    <property name="shotcut:hash">9f5288fb4a86d84aed3a1f3b535b3425</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">123.jpg</property>
+    <filter id="filter25" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-1795.64 15.6118 2613 1646.21 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer43" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/121.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:05</property>
+    <property name="shotcut:hash">93ddf469826fea3ec75cc952577f1786</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">121.jpg</property>
+    <filter id="filter26" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">64.5445 380.477 1084.57 1262.31 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer45" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/119.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:04</property>
+    <property name="shotcut:hash">7fa593dace311f11b35586955e843643</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">119.jpg</property>
+    <filter id="filter27" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-555.652 409.599 2244.85 1261.76 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer46" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/118.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:04</property>
+    <property name="shotcut:hash">28c1403b40093d13396771e5cdea820b</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">118.jpg</property>
+    <filter id="filter28" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-889.359 114.203 3715.45 3421.31 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer50" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/114.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:03</property>
+    <property name="shotcut:hash">99aef58bc05c573c06a408df019a371e</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">114.jpg</property>
+    <filter id="filter29" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-42.3427 200.22 1071.69 1607.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer53" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/111.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:01</property>
+    <property name="shotcut:hash">d7f6d1e702190b9c8be385dee0eb0bb0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">111.jpg</property>
+    <filter id="filter30" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-143.826 -114.329 1480.89 2221.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer54" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/110.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:01</property>
+    <property name="shotcut:hash">7304287c8bb931278dd63bbb9256723d</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">110.jpg</property>
+    <filter id="filter31" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-389.487 -6.32542 1913.53 1913.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer55" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/109.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:53:01</property>
+    <property name="shotcut:hash">32ff3f794aaf6c05eceeb6192c37bf7c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">109.jpg</property>
+    <filter id="filter32" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-1380 -3250 3600.72 5384 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer60" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/104.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:58</property>
+    <property name="shotcut:hash">49cfb9b4531acb7d7d1ee750c7dbd3dc</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">104.jpg</property>
+    <filter id="filter33" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-391.545 -452.348 2064.02 2752.03 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer67" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/097.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:55</property>
+    <property name="shotcut:hash">acf96d1f4f6d0cde20f163dcb392b3da</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">097.jpg</property>
+    <filter id="filter34" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-174.414 411.389 1485.55 1980.73 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer68" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/096.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:54</property>
+    <property name="shotcut:hash">6d0917886156128233892dc743758702</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">096.jpg</property>
+    <filter id="filter35" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">86.3501 156.955 996.895 1495.18 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer74" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/090.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:52</property>
+    <property name="shotcut:hash">8c5cdb3e36ea7610c3d46d32ee288b8a</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">090.jpg</property>
+    <filter id="filter36" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">11.882 289.539 1203.62 1604.83 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer77" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/087.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:52</property>
+    <property name="shotcut:hash">dd08076d9407a29edbf307180f28d4c4</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">087.jpg</property>
+    <filter id="filter37" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">68.1314 392.791 1070.14 1451.87 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer79" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/085.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:51</property>
+    <property name="shotcut:hash">3465f3494c0e7841fbd313f1e1836466</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">085.jpg</property>
+    <filter id="filter38" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-1165.85 -113.457 3526.45 2349.5 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer82" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/082.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:49</property>
+    <property name="shotcut:hash">154197f266c58948ba83e443be81c793</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">082.jpg</property>
+    <filter id="filter39" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-98.5874 -2.42006 1420.34 1775.68 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer85" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/079.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:49</property>
+    <property name="shotcut:hash">035d1a61d87cbcc15afc343c291d1a82</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">079.jpg</property>
+    <filter id="filter40" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">126.616 210.79 1154.49 1731.73 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer86" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/078.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:48</property>
+    <property name="shotcut:hash">69dee49e8ad3ebf7b0088bf94dc0026b</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">078.jpg</property>
+    <filter id="filter41" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">178.343 156.368 779.015 1558.03 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer87" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/077.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:48</property>
+    <property name="shotcut:hash">22f111ef3b7fd2523796568b6fe8491c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">077.jpg</property>
+    <filter id="filter42" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-117.711 62.5538 1420.54 1775.77 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer88" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/076.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:47</property>
+    <property name="shotcut:hash">1c17448247e0f93c0de954e9c10b9d43</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">076.jpg</property>
+    <filter id="filter43" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">308.435 781.085 535.147 713.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer90" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/074.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:47</property>
+    <property name="shotcut:hash">879e3425efdcc9c6e4ca038b5d98127c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">074.jpg</property>
+    <filter id="filter44" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-459.13 362.213 2120.65 1412.35 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer91" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/073.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:47</property>
+    <property name="shotcut:hash">3b19b50016c92ebbd0687712838a11fe</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">073.jpg</property>
+    <filter id="filter45" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-302.194 306.183 1361.26 1701.58 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer92" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/072.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:46</property>
+    <property name="shotcut:hash">46b6a4b622862982ba98461e8e8af0d0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">072.jpg</property>
+    <filter id="filter46" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-926.416 226.15 2068.45 1551.34 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer93" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/071.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:45</property>
+    <property name="shotcut:hash">e4c7645202f845d0dafd5c4a43e49714</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">071.jpg</property>
+    <filter id="filter47" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">115.608 225.131 973.222 1297.63 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer96" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/068.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:44</property>
+    <property name="shotcut:hash">32fdc8d321fb3f7eaaa688464ada154e</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">068.jpg</property>
+    <filter id="filter48" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-450.261 -324.478 2101.06 2626.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer99" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/065.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:42</property>
+    <property name="shotcut:hash">e7d113b5c4eade2e47d12d9a7ab18d2a</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">065.jpg</property>
+    <filter id="filter49" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-222.576 -844.499 1624 2434.82 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer101" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/063.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:41</property>
+    <property name="shotcut:hash">7bb9699d6f5c8be3d83d607105ba607c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">063.jpg</property>
+    <filter id="filter50" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-104.44 259.826 1368.9 1824.89 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer102" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/062.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:41</property>
+    <property name="shotcut:hash">49bf4d0b9771fc5fb9bc992280d74eb1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">062.jpg</property>
+    <filter id="filter51" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-54.9416 225.983 1298.85 1731.94 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer105" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/059.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:40</property>
+    <property name="shotcut:hash">9876163ba2f1e45d01ae0220a050758b</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">059.jpg</property>
+    <filter id="filter52" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-316.625 182.063 1834.52 2676.51 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer107" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/057.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:39</property>
+    <property name="shotcut:hash">43f64ba8fe481ee89061ae65c25d33da</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">057.jpg</property>
+    <filter id="filter53" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-514.367 -372.162 2293.33 2293.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer108" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/056.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:39</property>
+    <property name="shotcut:hash">0f2d053bb6586a82df6412ad92bbe51c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">056.jpg</property>
+    <filter id="filter54" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">261.607 101.072 1331.42 1775.23 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer109" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/055.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:38</property>
+    <property name="shotcut:hash">fc95d49338c1a6dc33c307cab15a0f96</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">055.jpg</property>
+    <filter id="filter55" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">354.33 837.179 565.747 754.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer111" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/053.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:38</property>
+    <property name="shotcut:hash">731192b11411f649f1f9bf229f999363</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">053.jpg</property>
+    <filter id="filter56" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">10.7489 203.32 1179.84 1769.62 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer114" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/050.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:36</property>
+    <property name="shotcut:hash">689bad8da540aa355e6d71828f216741</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">050.jpg</property>
+    <filter id="filter57" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-198.477 170.508 1409.78 1712.85 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer123" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/041.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:33</property>
+    <property name="shotcut:hash">3bac6feb83ddd3cefc18e612c3ab2d56</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">041.jpg</property>
+    <filter id="filter58" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">139.496 147.276 878.361 1561.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer127" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/037.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:32</property>
+    <property name="shotcut:hash">03e9b10fde67fd281ef3bfa891d11905</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">037.jpg</property>
+    <filter id="filter59" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-1011.51 204.89 3233.05 1817.97 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer129" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/035.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:31</property>
+    <property name="shotcut:hash">35a949621f482817dffe0cfa2ffd6376</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">035.jpg</property>
+    <filter id="filter60" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">44.7302 65.6071 1183.82 1578.43 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer132" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/032.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:30</property>
+    <property name="shotcut:hash">9970e2e34202d91e184fced62d6d4736</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">032.jpg</property>
+    <filter id="filter61" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-253.152 109.944 1461.21 1826.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer136" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/028.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:29</property>
+    <property name="shotcut:hash">cb6f81689893a4ef9d6f18da98bc2721</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">028.jpg</property>
+    <filter id="filter62" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-260.136 58.6185 1234.16 1944.28 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer138" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/026.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:29</property>
+    <property name="shotcut:hash">d010246d37ac3914b7b175a59e357799</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">026.jpg</property>
+    <filter id="filter63" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-84.6427 81.0451 1390.15 1853.53 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer142" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/022.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:27</property>
+    <property name="shotcut:hash">93b5d3848869a4545793d1f3328ef183</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">022.jpg</property>
+    <filter id="filter64" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-38.0663 96.7258 1257.62 1676.83 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer147" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/017.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:25</property>
+    <property name="shotcut:hash">cf8e5970530b08a7adf45695d0de56f8</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">017.jpg</property>
+    <filter id="filter65" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">94.0019 296.55 1015.46 1460.77 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer149" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/015.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:24</property>
+    <property name="shotcut:hash">ebf9c7c3cbb181a5a3d69f7626a1fafc</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">015.jpg</property>
+    <filter id="filter66" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">223.334 388.189 763.986 1422.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer150" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/014.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:24</property>
+    <property name="shotcut:hash">221e229d5d1a00d0994fd72109f522e1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">014.jpg</property>
+    <filter id="filter67" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-273.859 -50.4111 1686.94 2108.79 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer151" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/013.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:23</property>
+    <property name="shotcut:hash">88bbff745a5759167b881a60307c8b7e</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">013.jpg</property>
+    <filter id="filter68" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">180.025 17.1572 956.937 1814.19 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer152" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/012.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:23</property>
+    <property name="shotcut:hash">c2e0238d1ed6b72327283cd755013d6c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">012.jpg</property>
+    <filter id="filter69" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-10.8499 143.986 1238.39 1811.79 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer155" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/009.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:21</property>
+    <property name="shotcut:hash">0f81cec028f55c5312822d25c4e583cc</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">009.jpg</property>
+    <filter id="filter70" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">48.5 -286.613 1106.8 2455.77 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer160" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/004.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:19</property>
+    <property name="shotcut:hash">f2fc618b08f55b5803623911f263231c</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">004.jpg</property>
+    <filter id="filter71" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">-351.358 217.603 1989.25 1491.94 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer161" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/pictures/003.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T13:52:19</property>
+    <property name="shotcut:hash">57aa05754f9a81bbf92cd23ea7491b09</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">003.jpg</property>
+    <filter id="filter72" out="00:00:00.042">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">100.077 236.82 1150.75 1534.33 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.958">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/Black_colour.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-04-23T21:54:34</property>
+    <property name="shotcut:hash">019fefb79a10c34a378bc23cd48b1108</property>
+    <property name="shotcut:caption">Black_colour.jpg</property>
+    <property name="xml">was here</property>
+    <filter id="filter73" out="00:00:01.000">
+      <property name="argument"></property>
+      <property name="geometry">00:00:00.000=0 1920 1080 1920 1;00:00:00.292=0 1781 1080 1339 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;Images Scraped From Reddit&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;http://githublinkhere&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.333</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:01.125"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer39" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer40" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer41" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer43" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer45" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer46" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer50" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer53" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer54" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer55" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer60" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer67" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer68" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer74" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer77" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer79" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer82" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer85" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer86" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer87" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer88" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer90" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer91" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer92" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer93" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer96" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer99" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer101" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer102" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer105" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer107" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer108" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer109" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer111" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer114" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer123" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer127" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer129" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer132" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer136" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer138" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer142" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer147" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer149" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer150" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer151" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer152" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer155" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer160" in="00:00:00.000" out="00:00:00.042"/>
+    <entry producer="producer161" in="00:00:00.000" out="00:00:00.042"/>
+    <blank length="00:00:00.333"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:01.000"/>
+  </playlist>
+  <chain id="chain0" out="00:05:24.583">
+    <property name="length">00:05:24.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/videoplayback</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2023-03-11T13:56:37</property>
+    <property name="shotcut:hash">b509f3cc00099f5fed71186a056069fb</property>
+    <property name="shotcut:caption">videoplayback</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:05:24.583">
+    <property name="length">00:05:24.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/videoplayback</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2023-03-11T13:56:37</property>
+    <property name="shotcut:hash">b509f3cc00099f5fed71186a056069fb</property>
+    <property name="shotcut:caption">videoplayback</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:05:24.583">
+    <property name="length">00:05:24.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/videoplayback</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2023-03-11T13:56:37</property>
+    <property name="shotcut:hash">b509f3cc00099f5fed71186a056069fb</property>
+    <property name="shotcut:caption">videoplayback</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:05:24.583">
+    <property name="length">00:05:24.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/videoplayback</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2023-03-11T13:56:37</property>
+    <property name="shotcut:hash">b509f3cc00099f5fed71186a056069fb</property>
+    <property name="shotcut:caption">videoplayback</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:05:24.583">
+    <property name="length">00:05:24.625</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/etashjhanji/Documents/eiffel/videoplayback</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="creation_time">2023-03-11T13:56:37</property>
+    <property name="shotcut:hash">b509f3cc00099f5fed71186a056069fb</property>
+    <property name="shotcut:caption">videoplayback</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain0" in="00:01:30.417" out="00:01:38.458"/>
+    <entry producer="chain1" in="00:01:38.500" out="00:01:38.542"/>
+    <entry producer="chain2" in="00:01:38.583" out="00:01:39.000"/>
+    <entry producer="chain3" in="00:01:38.500" out="00:01:38.542"/>
+    <entry producer="chain4" in="00:01:38.500" out="00:01:38.542"/>
+    <filter id="filter74" out="00:00:08.750">
+      <property name="mlt_service">ladspa.1204</property>
+      <property name="shotcut:filter">3BandEq</property>
+      <property name="0">8.3</property>
+      <property name="1">200</property>
+      <property name="2">0.5</property>
+      <property name="3">0</property>
+      <property name="4">1000</property>
+      <property name="5">1</property>
+      <property name="instances">2</property>
+      <property name="6">-6</property>
+      <property name="7">1000</property>
+      <property name="8">1</property>
+      <property name="9">0</property>
+      <property name="10">1000</property>
+      <property name="11">1</property>
+      <property name="12">-9</property>
+      <property name="13">5000</property>
+      <property name="14">0.5</property>
+      <property name=".dummy"></property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter75" out="00:00:08.750">
+      <property name="mlt_service">ladspa.1216</property>
+      <property name="0">40</property>
+      <property name="1">4</property>
+      <property name="2">0.9</property>
+      <property name="3">0.75</property>
+      <property name="4">0</property>
+      <property name="5">-22</property>
+      <property name="6">-28</property>
+      <property name="instances">2</property>
+    </filter>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.09.23" in="00:00:00.000" out="00:00:08.750">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">15.635</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">1</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+      <property name="1">normal</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+      <property name="1">normal</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
